@@ -124,18 +124,21 @@ ul li a{
     font-size: 26px;
 }
 /* second section */
-
+.wave{
+    font-size: 0;
+    color: #F6F6F6;
+}
+.wave-reverse{
+    font-size: 0;
+    transform: rotate(180deg);
+    color: #F6F6F6;
+}
 #second-section{
     background-color:#F6F6F6 ;
 }
 #second-section .container{
     padding: 100px 0;
     padding-bottom: 300px;
-}
-.wave .wave-1hkxOo{
-    width: 100%;
-    font-size: 0;
-    filter: invert(100%) sepia(53%) saturate(32%) hue-rotate(360deg) brightness(116%) contrast(93%);
 }
 
 .text{
@@ -165,6 +168,9 @@ ul li a{
     font-size: 26px;
 }
 /* fourth section */
+#fourth-section{
+    background-color:#F6F6F6 ;
+}
 #third-section .container{
     padding: 100px 0;
     padding-bottom: 200px;
