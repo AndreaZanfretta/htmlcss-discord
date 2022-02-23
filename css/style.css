@@ -64,7 +64,7 @@ nav ul{
     text-align: center;
 
 }
-ul li{
+header ul li{
     display: inline-block;
 }
 ul li a{
@@ -124,10 +124,32 @@ ul li a{
     font-size: 26px;
 }
 /* second section */
+
 #second-section{
     background-color:#F6F6F6 ;
 }
 #second-section .container{
+    padding: 100px 0;
+    padding-bottom: 300px;
+}
+.wave .wave-1hkxOo{
+    width: 100%;
+    font-size: 0;
+    filter: invert(100%) sepia(53%) saturate(32%) hue-rotate(360deg) brightness(116%) contrast(93%);
+}
+
+.text{
+    padding-top: 30px;
+    width: 30%;
+    text-align: left;
+    font-size: 35px;
+}
+.text p{
+    padding-top: 15px;
+    font-size: 26px;
+}
+/* third section */
+#third-section .container{
     padding: 100px 0;
     padding-bottom: 300px;
 }
@@ -141,4 +163,113 @@ ul li a{
 .text p{
     padding-top: 15px;
     font-size: 26px;
+}
+/* fourth section */
+#third-section .container{
+    padding: 100px 0;
+    padding-bottom: 200px;
+}
+
+.fulltext{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.fulltext p{
+    text-align: center;
+    padding: 15px 120px;
+    font-size: 20px;
+}
+.middle-image img{
+    width: 100%;
+    min-height: 700px;
+    object-fit: cover;
+}
+/* download-section */
+.stars-container{
+    height: 55px;
+    width: 400px;
+    margin: 40px auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.stars-text{
+    text-align: center;
+    font-size: x-large;
+    line-height: 80px;
+}
+.stars-container btn{
+    text-align: center;
+}
+.btn-container{
+    text-align: center;
+    padding-bottom: 15px;
+}
+/* footer */
+footer{
+    padding-top: 80px;
+    background-color: #23272A;
+    height: 80vh;
+}
+
+.footerone{
+    height: 40vh;
+    border-bottom: 2px solid #3161e0;
+    margin-bottom: 20px;
+}
+
+.color-diff p i{
+    color: white;
+}
+
+.font-diff{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+#share i{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.bottom-list ul{
+    float: right;
+}
+
+.bottom-list ul li{
+    line-height: 20px;
+    margin: 5px;
+    margin-right: 50px;
+}
+
+.bottom-list ul li a{
+    color: white;
+}
+
+.bottom-list ul li .color-diff{
+    color: #3161e0;
+}
+
+.color-diff{
+    color: #3161e0;
+}
+
+.footerone .left p{
+    color: white;
+}
+
+.footertwo{
+    width: 70%;
+    height: 200px
+}
+
+#last{
+    margin-top: 10px;
 }
